@@ -8,8 +8,9 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 #[macro_use]
-mod harness;
+mod old_harness as hardness;
 mod lens;
+mod harness as new_harness;
 
 use crate::actions::{notifications, requests};
 use crate::config::{Config, Inferrable};
